@@ -1,6 +1,7 @@
 import { Link as DefaultLink, useColorModeValue } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
+
 const NavLink = ({ children, ...props }) => (
   <DefaultLink
     px={2}

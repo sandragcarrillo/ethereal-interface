@@ -28,9 +28,15 @@ const Footer = () => {
           align={{ base: "center", md: "center" }}
         >
           <Text>
-            © {new Date().getFullYear()} Original designs by
-            <Link ml={1} href="https://twitter.com/pablostanley">
-              Pablo Stanley 🎨
+            © {new Date().getFullYear()} Ethereal dapp es un proyecto de
+            <Link ml={1} href="https://twitter.com/sandraupgrade">
+              Sandra Carrillo, 
+            </Link>
+            <Link ml={1} href="https://twitter.com/sandraupgrade">
+              Carla Martinez y
+            </Link>
+            <Link ml={1} href="https://twitter.com/sandraupgrade">
+              Vicki Avola
             </Link>
           </Text>
         </Container>
