@@ -1,4 +1,4 @@
-import{Stack,Flex,Heading,Text,Button,Image,Badge,useToast, Box, Center}from "@chakra-ui/react";
+import{Stack,Flex,Heading,Text,Button,Image,Badge,useToast}from "@chakra-ui/react";
 //import{Link}from "react-router-dom";
 import{useWeb3React}from "@web3-react/core";
 import{useCallback,useEffect,useState}from "react";
@@ -91,37 +91,15 @@ const Home=()=>{
   mt={4}
   size="xs"
   bg="#260780"
-  color="#FFFF">Actualizar</Button></>):(<Badge mt={2}>Wallet desconectado</Badge>)}</Flex></Stack>);};
+  color="#FFFF">Actualizar</Button></>):(<Badge mt={2}>Wallet desconectado</Badge>)}</Flex>
+
+  
+  </Stack>
+  
+
+  );};
 
 
-<Stack  align={"center"}>
-      <Center h="100vh">
-        <Box p="5" maxW="320px" borderWidth="1px">
-          <Image borderRadius="md" src="https://bit.ly/2k1H1t6" />
-          <Flex align="baseline" mt={2}>
-            <Badge colorScheme="pink">Plus</Badge>
-            <Text
-              ml={2}
-              textTransform="uppercase"
-              fontSize="sm"
-              fontWeight="bold"
-              color="pink.800"
-            >
-              Verified &bull; Cape Town
-            </Text>
-          </Flex>
-          <Text mt={2} fontSize="xl" fontWeight="semibold" lineHeight="short">
-            Modern, Chic Penthouse with Mountain, City & Sea Views
-          </Text>
-          <Text mt={2}>$119/night</Text>
-          <Flex mt={2} align="center">
-            <Text ml={1} fontSize="sm">
-              <b>4.84</b> (190)
-            </Text>
-          </Flex>
-        </Box>
-      </Center>
- </Stack>
 
 
 

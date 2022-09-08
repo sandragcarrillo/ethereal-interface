@@ -48,7 +48,7 @@ const WalletData = () => {
   return (
     <Flex alignItems={"center"}>
       {active ? (
-        <Tag bg="#260780" color={"white"} borderRadius="full">
+        <Tag bg="white" color={"#260780"} borderRadius="full">
           <TagLabel>
             <Link to="/punks">{truncatedAddress}</Link>
           </TagLabel>
@@ -68,9 +68,9 @@ const WalletData = () => {
       ) : (
         <Button
           variant={"solid"}
-          bg={"#260780"}
+          bg={"WHITE"}
           size={"sm"}
-          color= {"white"}
+          color= {"#260780"}
           leftIcon={<AddIcon />}
           onClick={connect}
           disabled={isUnsupportedChain}

@@ -29,13 +29,13 @@ const Footer = () => {
         >
           <Text>
             © {new Date().getFullYear()} Ethereal dapp es un proyecto de
-            <Link ml={1} href="https://twitter.com/sandraupgrade">
+            <Link ml={1} href="https://github.com/sandragcarrillo">
               Sandra Carrillo, 
             </Link>
-            <Link ml={1} href="https://twitter.com/sandraupgrade">
+            <Link ml={1} href="https://github.com/carlaupgrade">
               Carla Martinez y
             </Link>
-            <Link ml={1} href="https://twitter.com/sandraupgrade">
+            <Link ml={1} href=" https://github.com/vickiavola">
               Vicki Avola
             </Link>
           </Text>

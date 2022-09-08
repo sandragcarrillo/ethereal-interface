@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   Stack,
   Image,
-  Heading,
+  Heading
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "./nav-link";
@@ -20,8 +20,8 @@ const Links = [
     to: "/",
   },
   {
-    name: "Punks",
-    to: "/punks",
+    name: "Galería",
+    to: "/gallery",
   },
 ];
 
@@ -29,21 +29,19 @@ const MainLayout = ({ children }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Flex minH="100vh" direction="column">
+    <Flex minH="100vh" direction="column" >
       <Box
         mx="auto"
-        maxW={"7xl"}
         width="100%"
-        bg={useColorModeValue("white", "gray.800")}
+        bg={"#260780"}
         px={4}
       >
         <Flex
-          bg={useColorModeValue("white", "gray.800")}
           color={useColorModeValue("gray.600", "white")}
-          minH={"60px"}
+          minH={"70px"}
           py={{ base: 2 }}
           px={{ base: 4 }}
-          borderBottom={1}
+          width="100%"
           borderStyle={"solid"}
           borderColor={useColorModeValue("gray.200", "gray.900")}
           alignItems={"center"}
@@ -56,14 +54,17 @@ const MainLayout = ({ children }) => {
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={8} alignItems={"center"}>
+          <HStack  alignItems={"center"}>
             <Flex alignItems="center">
-              <Image src="./images/platzi.svg" width="80px" />
-              <Heading size="md" color="purple" mt={0.2} ml={1}>
-                Punks
+              <Image src="https://github.com/vickiavola/proyecto-ethereum/blob/master/assets/imgs/logo.png?raw=true" width="80px" />
+              <Heading size="md" color="white" mt={0.1}>
+                Ethereal
               </Heading>
             </Flex>
-            <HStack
+
+            
+          </HStack>
+          <HStack
               as={"nav"}
               spacing={4}
               display={{ base: "none", md: "flex" }}
@@ -74,7 +75,6 @@ const MainLayout = ({ children }) => {
                 </NavLink>
               ))}
             </HStack>
-          </HStack>
           <WalletData />
         </Flex>
 

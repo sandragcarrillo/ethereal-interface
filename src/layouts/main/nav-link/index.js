@@ -1,4 +1,4 @@
-import { Link as DefaultLink, useColorModeValue } from "@chakra-ui/react";
+import { Link as DefaultLink } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 
@@ -8,9 +8,11 @@ const NavLink = ({ children, ...props }) => (
     py={1}
     as={Link}
     rounded={"md"}
+    color="white"
     _hover={{
       textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
+      bg:"white",
+      color:"#260780"
     }}
     {...props}
   >
