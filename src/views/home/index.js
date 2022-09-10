@@ -86,7 +86,7 @@ const Home=()=>{
   justify={"center"}
   align={"center"}
   position={"relative"}
-  w={"full"}><Image src={active?imageSrc:"https://raw.githubusercontent.com/vickiavola/proyecto-ethereum/1544b3f1bf5388b2282adc2a43069dd0153ebfb2/assets/imgs/libro_audifonos_1.svg"}/>{active?(<><Flex mt={2}><Badge>Next ID:<Badge ml={1}colorScheme="green">1</Badge></Badge><Badge ml={2}>Address:<Badge ml={1}colorScheme="green">0x0000...0000</Badge></Badge></Flex><Button
+  w={"full"}><Image src={active?imageSrc:"https://raw.githubusercontent.com/vickiavola/proyecto-ethereum/1544b3f1bf5388b2282adc2a43069dd0153ebfb2/assets/imgs/libro_audifonos_1.svg"}/>{active?(<><Flex mt={2}><Badge>Next ID:<Badge ml={1}color="#004AAD">1</Badge></Badge><Badge ml={2}>Address:<Badge ml={1}color="#004AAD">0x0000...0000</Badge></Badge></Flex><Button
   onClick={getNFTsData}
   mt={4}
   size="xs"
