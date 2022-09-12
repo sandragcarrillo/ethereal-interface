@@ -6,6 +6,7 @@ import useNFTs from "../../hooks/useNFTs";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
+
 const Home=()=>{
   const [imageSrc,setImageSrc] = useState("");
   const {active,account} = useWeb3React();
@@ -81,6 +82,28 @@ const Home=()=>{
     onClick={mint}>
     Obtén tu NFT
   </Button>
+
+  <Stack
+            spacing={{ base: 4, sm: 6 }}
+            direction={{ base: "column", sm: "row" }}
+          >
+            <a
+              href="https://github.com/sandragcarrillo/ethereal-interface"
+            >
+              <Button
+                leftIcon={<FaGithub/>}
+                size={"lg"}
+                fontWeight={"normal"}
+                px={6}
+                borderColor="#004AAD"
+                color={"#004AAD"}
+                variant="outline"
+                rounded="full"
+              >
+                Repositorio del proyecto
+              </Button>
+            </a>
+          </Stack>
       
  </Stack>
   </Stack>
@@ -155,7 +178,7 @@ align={"center"} >
       />
         <Text fontWeight="bold" margin={"2px"}>Sandra Carrillo</Text>
         <Text>
-          Frontend developer, Jr Solidity Developer, Especialista en creación de contenido E-Learning sobre tecnología
+          Frontend developer, Jr Solidity Developer, Especialista en creación de contenido E-Learning para conectar talentos con oportunidades
         </Text>
         <Flex justify={"center"}
   align={"center"} gap={6} marginTop="10px"> <Link href="https://github.com/sandragcarrillo" ><FaGithub w={5} h={6}></FaGithub> </Link>
