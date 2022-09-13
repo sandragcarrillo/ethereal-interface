@@ -1,6 +1,6 @@
 # 🇺🇸 Ethereal interface DAPP
 
-_Ethereal is a dapp project created to share audiobooks and audiocourses, access is able only with a random NFT that anyone can mint in the platform, also users will be able to vote for their favourites categories that will be added in the platform._
+_Ethereal is the decentralized app where you will find educational content in the form of audio courses and audio books, which you will access by acquiring an NFT through a multisignature wallet.And because we want you to have fun while you learn, by being part of this project you will be able to vote for the category of your choice to be added to the platform._
 
 <img src="https://github.com/sandragcarrillo/ethereal-interface/blob/main/public/images/capture2.png?raw=true" width="800" align="center" style="float: center;" >
 
@@ -82,7 +82,7 @@ The whole application was built with 💜 by great women in web3:
 
 # 🇪🇸 Interfaz de Ethereal dapp
 
-_Ethereal es una dapp o aplicación descentralizada para compartir audiolibros y audiocursos, cuyo única forma de acceso es con un NFT random que cualquier persona puede mintear dentro de la plataforma. Adicionalmente, los usuarios podrán votar por sus categorías favoritas para que sean incluidas en la plataforma._
+_Ethereal es la app descentralizada donde encontrarás contenido educativo en formato de audiocursos y audiolibros, al cual accederás adquiriendo un NFT a través de una billetera multifirma. Y porque queremos que te diviertas mientras aprendes, al ser parte de este proyecto podrás votar por la categoría de tu preferencia a ser agregada en la plataforma._
 
 <img src="https://github.com/sandragcarrillo/ethereal-interface/blob/main/public/images/capture3.png?raw=true" width="450" align="right" />
 
