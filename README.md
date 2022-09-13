@@ -66,7 +66,7 @@ _Then, let's clone the repo, and install all the dependencies of the project._
    
 
 ##  🚀Deploy <a name="deployed"></a>
-[**Ethereal dapp**](https://ipfs.io/ipfs/QmfMRTGsj5bF3CYZxA5i6guooL8wVpKaw3hGb7s6mniCFJ)
+[**Ethereal dapp**](https://ethereal-interface.vercel.app/#/)
 
 ## 💡Smart contracts<a name="contracts"></a>
 This dapp was created using two smart contracts on the Backend, both deployed on Rinkeby testnet, here you have the contracts repositories:
@@ -125,7 +125,7 @@ _Ahora, clona el repositorio e instala todas las dependencias del proyecto._
    
 
 ##  🚀Despliegue <a name="deployed-es"></a>
-[**Ethereal dapp**](https://ipfs.io/ipfs/QmfMRTGsj5bF3CYZxA5i6guooL8wVpKaw3hGb7s6mniCFJ)
+[**Ethereal dapp**](https://ethereal-interface.vercel.app/#/)
 
 ## 💡Contratos inteligentes<a name="contratos"></a>
 Esta dapp fue creada usando dos contratos inteligentes en el Backend, ambos desplegados en la red de prueba de Rinkeby, a continuación puedes ver los repositorios de ambos contratos:
