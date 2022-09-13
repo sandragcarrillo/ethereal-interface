@@ -79,7 +79,6 @@ The whole application was built with 💜 by great women in web3:
 - 👩‍💻 [Carla Martínez](https://github.com/carlaupgrade)
 - 👩‍💻 [Vicki Avola](https://github.com/vickiavola)
 
-This project was inspired by the Ethereum Developer program, created by Platzi and Ethereum Foundation.
 
 # 🇪🇸 Interfaz de Ethereal dapp
 
@@ -139,4 +138,3 @@ Esta aplicación fue construida con 💜 por mujeres geniales en web3:
 - 👩‍💻 [Carla Martínez](https://github.com/carlaupgrade)
 - 👩‍💻 [Vicki Avola](https://github.com/vickiavola)
 
-This project was inspired by the Ethereum Developer program, created by Platzi and Ethereum Foundation.
