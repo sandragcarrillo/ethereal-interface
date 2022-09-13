@@ -1,11 +1,11 @@
 import { useToast } from "@chakra-ui/react";
-// import { useWeb3React } from "@web3-react/core";
-import { useState } from "react";
+//import { useWeb3React } from "@web3-react/core";
+import { useState, useMemo } from "react";
 import { usePercent } from "../useTruncatedAddress";
 import web3 from "web3";
 
 const useProposalStatus = () => {
-    // const {  chainId, active } = useWeb3React();
+    //const {  chainId, active } = useWeb3React();
   const [positiveVotes, setPositiveVotes] = useState(0);
   const [negativesVotes, setNegativeVotes] = useState(0);
   const [voting, setVoting] = useState(false);
@@ -60,7 +60,7 @@ const useProposalStatus = () => {
     negativesVotes,
     voting,
     isVoted,
-    handleVote,
+    handleVote
   };
 };
 

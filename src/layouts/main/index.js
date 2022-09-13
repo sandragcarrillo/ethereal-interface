@@ -56,7 +56,7 @@ const MainLayout = ({ children }) => {
           />
           <HStack  alignItems={"center"}>
             <Flex alignItems="center">
-              <Image src="https://github.com/vickiavola/proyecto-ethereum/blob/master/assets/imgs/logo.png?raw=true" width="80px" />
+              <Image src="https://raw.githubusercontent.com/vickiavola/proyecto-ethereum/fd17dec1d124e41478c0372f34ed6865a734d59a/assets/imgs/Logo%20E%20(1).png" width="90px" />
               <Heading size="md" color="white" mt={0.1}>
                 Ethereal
               </Heading>

@@ -194,7 +194,7 @@ align={"center"} >
       />
         <Text fontWeight="bold" margin={"2px"}>Carla Martínez</Text>
         <Text>
-        Frontend developer, Jr Solidity Developer, Especialista en creación de contenido E-Learning para conectar talentos con oportunidades
+        Entreprenur | EdTech builder | Problem Solver | Smart contract Developer | Web3 enthusiast
         </Text>
         <Flex justify={"center"}
   align={"center"} gap={6} marginTop="10px"> <Link href="https://github.com/carlaupgrade" ><FaGithub w={5} h={6}></FaGithub> </Link>

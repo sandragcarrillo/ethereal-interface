@@ -93,7 +93,8 @@ const Roadmap = () => {
                     <Stack direction="row" spacing={4}>
                       <Button
                         leftIcon={<VscHubot />}
-                        colorScheme="blue"
+                        bg="#260780"
+                        color={"white"}
                         variant="solid"
                         isLoading={voting}
                         isDisabled={isVoted}
@@ -121,7 +122,7 @@ const Roadmap = () => {
                     <Stack direction="row" spacing={4}>
                       <Button
                         leftIcon={<VscBriefcase />}
-                        colorScheme="blue"
+                        color="#260780"
                         variant="outline"
                         isLoading={voting}
                         isDisabled={isVoted}
