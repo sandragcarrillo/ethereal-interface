@@ -1,6 +1,6 @@
 # 🇺🇸 Ethereal interface DAPP
 
-_Ethereal is the decentralized app where you will find educational content in the form of audio courses and audio books, which you will access by acquiring an NFT through a multisignature wallet. And because we want you to have fun while you learn, by being part of this project you will be able to vote for the category of your choice to be added to the platform._
+_Ethereal is the decentralized app where you will find educational content in the form of audio courses and audio books, which you will access by acquiring an NFT through a multisignature wallet. And because we want you to have fun while you learn, by being part of this project you will be able to vote for the category of your choice to be added to the platform._ 
 
 <img src="https://github.com/sandragcarrillo/ethereal-interface/blob/main/public/images/capture2.png?raw=true" width="800" align="center" style="float: center;" >
 
